@@ -2,15 +2,23 @@
 
 ## Features
 
-![Screenshot](images/screenshot.png)
+![Demo recording](assets/demo.gif)
 
 ## Known Issues
 
 Not handling block comments.
 
-Not handling tabs.
+Not handling tab indents.
 
 ## Release Notes
+
+### 1.0.1
+
+Update README features.
+
+### 1.0.0
+
+Rework UI.
 
 ### 0.0.2
 
