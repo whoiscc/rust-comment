@@ -2,7 +2,7 @@
   "name": "rust-comment",
   "displayName": "rust-comment",
   "description": "",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -13,7 +13,18 @@
     "onLanguage:rust"
   ],
   "main": "./out/extension.js",
-  "contributes": {},
+  "contributes": {
+    "configuration": {
+      "title": "rust-comment",
+      "properties": {
+        "rust-comment.backgroundColor": {
+          "type": "string",
+          "default": "#f7f0f5",
+          "description": "The background color for highlighted comment width."
+        }
+      }
+    }
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
